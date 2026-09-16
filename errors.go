@@ -32,5 +32,7 @@ func main() {
 		} else {
 			fmt.Println("unknow error")
 		}
+	} else {
+		fmt.Println("validasi sukses")
 	}
 }
