@@ -23,6 +23,7 @@ func GetById(id string) error {
 }
 
 func main() {
+	id := "Afakih"
 	err := GetById("Afakih")
 	if err != nil {
 		if errors.Is(err, ValidationError) {
@@ -33,6 +34,6 @@ func main() {
 			fmt.Println("unknow error")
 		}
 	} else {
-		fmt.Println("validasi sukses")
+		fmt.Println(id, "validasi sukses")
 	}
 }
