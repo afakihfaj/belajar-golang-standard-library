@@ -23,5 +23,8 @@ func main() {
 		fmt.Println(valueTime)
 
 	}
-
+	fmt.Println(valueTime.Year())
+	fmt.Println(valueTime.Month())
+	fmt.Println(valueTime.Day())
+	fmt.Println(valueTime.Hour())
 }

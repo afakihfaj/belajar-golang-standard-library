@@ -20,4 +20,8 @@ func main() {
 
 	next = next.Next() // dewangga
 	fmt.Println(next.Value)
+
+	for e := data.Front(); e != nil; e = e.Next() {
+		fmt.Println(e.Value)
+	}
 }
