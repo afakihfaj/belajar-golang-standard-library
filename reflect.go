@@ -31,9 +31,5 @@ func readField(value any) {
 func main() {
 	readField(Sample{"Afakih"})
 	readField(Person{"Afakih", "Situbondo", "Afakihartwok@gmail.com"})
-	// sample := Sample{"Afakih"}
-	// sampleType := reflect.TypeOf(sample)
-	// structField := sampleType.Field(0)
 
-	// fmt.Println(structField.Name)
 }
