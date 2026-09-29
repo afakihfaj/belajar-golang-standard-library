@@ -46,6 +46,7 @@ func main() {
 	readField(Person{"Afakih", "", ""})
 
 	person := Person{
+
 		Name:    "Afakih",
 		Address: "Situbondo",
 		Email:   "afakihfaj@gmail.com",
