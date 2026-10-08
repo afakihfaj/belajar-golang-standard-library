@@ -9,8 +9,8 @@ func main() {
 	writer := csv.NewWriter(os.Stdout)
 
 	_ = writer.Write([]string{"afakih", "fajduwani", "dewangga"})
-	_ = writer.Write([]string{"budi", "pratama", "nugraha"})
-	_ = writer.Write([]string{"joko", "morro", "diah"})
+	_ = writer.Write([]string{"laras", "ayu", "hyein"})
+	_ = writer.Write([]string{"seunghee", "liz", "binnie"})
 
 	writer.Flush()
 }
